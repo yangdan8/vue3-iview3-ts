@@ -1,4 +1,4 @@
-# vue3-iview3-ts2
+# vue3-iview3-ts
 
 ## Project setup
 ```
