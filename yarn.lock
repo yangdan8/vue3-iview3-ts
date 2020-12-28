@@ -1968,13 +1968,6 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/composition-api@^1.0.0-beta.22":
-  version "1.0.0-beta.22"
-  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-beta.22.tgz#8b0046bda138820c6d79c91dc961839a52d853c7"
-  integrity sha512-KkTeHVWgsJbtoA5t6pUien/ARw7JhVM7QZh05ko/UdgzALYMGwJsBf4WlcvbpMKE5eAu4ONYJypQ+r8LwBIOhA==
-  dependencies:
-    tslib "^2.0.1"
-
 "@vue/eslint-config-prettier@^6.0.0":
   version "6.0.0"
   resolved "https://registry.npm.taobao.org/@vue/eslint-config-prettier/download/@vue/eslint-config-prettier-6.0.0.tgz#ad5912b308f4ae468458e02a2b05db0b9d246700"
@@ -9555,7 +9548,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
   integrity sha1-jgdBrEX8DCJuWKF7/D5kubxsphw=

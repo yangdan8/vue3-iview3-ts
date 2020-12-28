@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg }}----------</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -119,10 +119,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'HelloWorld',
-  setup(props) {
+  props: {
+    msg: {
+      type: String,
+      required: true,
+    },
+  },
+  setup() {
     return {};
   },
 });
